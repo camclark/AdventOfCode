@@ -1,20 +1,3 @@
-# finput = open('input.txt','r').read().rstrip()
-# elves = finput.split('\n\n')
-
-# high_cal_carrier = 0
-# high_cal = 0
-
-# for i, elf in enumerate(elves):
-#     elf_cals = sum(list(map(int, elf.split('\n'))))
-
-#     if elf_cals > high_cal:
-#         high_cal_carrier = i
-#         high_cal = int(elf_cals)
-
-# print(high_cal_carrier, high_cal)
-
-# __
-
 finput = open('input.txt','r').read().rstrip()
 elves = finput.split('\n\n')
 
